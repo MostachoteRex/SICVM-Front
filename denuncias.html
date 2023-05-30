@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario-Denuncia</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Denuncias</h1>
+    <form action="#" method="post"></form>
+        <label for="nombre-denuncia">Nombre:</label>
+        <input type="text" id="nombre-denuncia" name="nombre-denuncia" required><br><br>
+        <label for="direccion-denuncia">Dirección:</label>
+        <input type="text" id="direccion-denuncia" name="direccion-denuncia" required><br><br>
+        <label for="sexo-denuncia">Sexo:</label>
+        <select id="sexo-denuncia" name="sexo-denuncia" required>
+            <option value="femenino">Selecione</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+        </select><br><br>
+        <label for="text">Descripcion</label>
+        <input type="text" id="descripcion">
+        <button type="submit">Enviar</button>
+  </form>
+  <script src="formulario.js"></script>
+</body>
+</html>
